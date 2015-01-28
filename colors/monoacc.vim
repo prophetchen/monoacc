@@ -59,3 +59,5 @@ hi SpellBad ctermfg=NONE ctermbg=NONE cterm=underline
 hi Visual ctermfg=NONE ctermbg=233 cterm=NONE
 hi LineNr ctermfg=240 ctermbg=NONE cterm=italic
 hi CursorLineNR ctermfg=240 ctermbg=236 cterm=italic
+hi Pmenu ctermfg=NONE ctermbg=234 cterm=NONE
+hi PmenuSel ctermfg=234 ctermbg=105 cterm=NONE
