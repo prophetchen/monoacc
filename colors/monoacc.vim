@@ -3,7 +3,7 @@ highlight clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name = "Sever"
+let g:colors_name = "monoacc"
 
 
 set t_ZH=[3m
