@@ -10,6 +10,7 @@ set t_ZH=[3m
 set t_ZR=[23m
 
 hi Normal ctermfg=252 ctermbg=235 cterm=NONE
+hi link pythonDoctest   Normal
 
 hi pythonComment ctermfg=240 ctermbg=NONE cterm=italic
 
@@ -23,7 +24,7 @@ hi link pythonExceptions  pythonStatement
 hi link pythonRepeat      pythonStatement
 hi link pythonDecorator   pythonStatement
 
-hi pythonTodo ctermfg=105, ctermbg=None cterm=bold
+hi pythonTodo ctermfg=105 ctermbg=None cterm=bold
 
 hi pythonFunction ctermfg=105 ctermbg=NONE cterm=NONE
 hi link pythonTodo      pythonFunction
