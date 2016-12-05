@@ -52,6 +52,7 @@ hi link goConditional goDirective
 hi link goLabel goDirective
 hi link goRepeat goDirective
 hi link goType goDirective
+hi link goTypeDecl goType
 hi link goSignedInts goDirective
 hi link goUnsignedInts goDirective
 hi link goFloats goDirective
@@ -64,7 +65,13 @@ hi link goMethod Normal
 hi link goStruct Normal
 hi link goInterface Normal
 
+hi link goTypeName pythonFunction
+hi link goTypeConstructor Normal
+
+hi link goReceiver Normal
+hi link goReceiverType pythonFunction
 hi link goFunction pythonFunction
+hi link goFunctionCall Normal
 hi link goStructDef pythonFunction
 hi link goInterfaceDef pythonFunction
 hi link goOperator goFunction
